@@ -32,10 +32,12 @@ After a product has been selected and the order quantity (default order quantity
   *	Deselect the selected product in lstProducts.  
 
 {Hint: For example, OrderForm may look like the following at runtime}  
-* Before any selection:  
-  <img width="271" alt="image" src="https://user-images.githubusercontent.com/19373417/193460538-c4b9e01d-2414-41f8-867a-a37fda759658.png">
-* After the completion of three selections, which includes 10 Hamburger, 1 Chicken Nugget and 4 Chicken Nuggets:  
-  <img width="272" alt="image" src="https://user-images.githubusercontent.com/19373417/193460557-53459be5-7ea9-4e23-aa98-e647ddf245cc.png">  
+* Before any selection:
+  <p align="center">  
+  <img width="271" alt="image" src="https://user-images.githubusercontent.com/19373417/193460538-c4b9e01d-2414-41f8-867a-a37fda759658.png"></p>
+* After the completion of three selections, which includes 10 Hamburger, 1 Chicken Nugget and 4 Chicken Nuggets:
+  <p align="center">   
+  <img width="272" alt="image" src="https://user-images.githubusercontent.com/19373417/193460557-53459be5-7ea9-4e23-aa98-e647ddf245cc.png"></p> 
   
 ### Task 5  
 The user may select one or more products in lstOrdered and then remove them from lstOrdered. When btnRemove is clicked, repeat the following actions for each selected product in lstOrdered:  
@@ -43,10 +45,12 @@ The user may select one or more products in lstOrdered and then remove them from
   * Decrease the displayed total value as shown in the caption of lblTotal by the order value of the selected product in lstOrdered. The updated caption must still be displayed with a $ symbol at the beginning and always in exactly one decimal place.
   * Remove the selected product from lstOrdered. The updated list in lstOrdered must not contain blank lines between any two listed products.  
 {Hint: For example, OrderForm may look like the following at runtime}  
-* Before any removal:  
-  <img width="269" alt="image" src="https://user-images.githubusercontent.com/19373417/193460611-012df4a6-e063-409e-a5f3-92e5bef35bfe.png">  
+* Before any removal:
+  <p align="center">   
+  <img width="269" alt="image" src="https://user-images.githubusercontent.com/19373417/193460611-012df4a6-e063-409e-a5f3-92e5bef35bfe.png"></p>  
 * After 10 Hamburger and 4 Chicken Nuggets are removed:  
-  <img width="270" alt="image" src="https://user-images.githubusercontent.com/19373417/193460623-b55404d0-0e97-4229-9a40-0e3ff6e2702b.png">  
+  <p align="center"> 
+  <img width="270" alt="image" src="https://user-images.githubusercontent.com/19373417/193460623-b55404d0-0e97-4229-9a40-0e3ff6e2702b.png"></p>  
   
 ### Task 6  
 When the user clicks the CommandButton control btnProcOrder:  
@@ -57,7 +61,8 @@ When the user clicks the CommandButton control btnProcOrder:
 ### Task 7  
 When the user checks the CheckBox control chkAccValue:  
 *	Show a message dialog box with the title ‘CityU Shop’ and this message in the dialog box: “The accumulated order value is: $x,xxx.x”, where x,xxx.x is the accumulated order value of all orders in the same session with thousand commas as needed and in exactly one decimal place (such as $1,234.5, or $123.0). The dialog box should look like this:  
-  <img width="158" alt="image" src="https://user-images.githubusercontent.com/19373417/193460666-5c92ec0f-423f-40ba-88e0-3af0dbefd1e0.png">  
+  <p align="center"> 
+  <img width="158" alt="image" src="https://user-images.githubusercontent.com/19373417/193460666-5c92ec0f-423f-40ba-88e0-3af0dbefd1e0.png"></p>  
 *	Uncheck chkAccValue programmatically.  
 
 ### Task 8
